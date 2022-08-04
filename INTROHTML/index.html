@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MI primera web</title>
+    <style> 
+    table, td, th {
+        border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <!--Esto son diferentes tamaños que se pueden usar en los titulos-->
+    <P>HOLA COMO ESTAS</P>
+    <!-- <p> Se utiliza para crear parrafos-->
+    <hr>
+    <!-- el <hr> sirve para marcar separaciones entre los textos-->
+    <h1>Que pedo cachorro</h1>
+    <p> Que tal como estas</p>
+    <p> Este texto<span style="color: darkblue;"> esta mucho mas grande</span> mi compa
+         <br> esto fue un salto de linea </p>
+    <!-- <Span> sirve para seleccionar determinado texto del parrafo y se puede agregar diferentes
+        estilos etc. Mientras que <br> son los saltos de linea que se puede dar en los parrafos -->
+    <a target="_blank" href="https://www.google.com">Ir a Google</a>
+    <!-- Crear links con hrfe y para que abra una ventana nueva es con target-->
+    <img src="img/nike imagen.jpg" width="400" height="400"/>
+    <!-- Como meter imagenes desde el ordenador, asi como modificar su altura y anchura-->
+    <form action="/formulario" method="post" >
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name= "Nombre" placeholder="Nombres" />
+        <br>
+        <label for="apellido">Apellidos</label>
+        <input type="text" id="apellido" name= "Apellidos" placeholder="Apellidos" />
+        <br> 
+        <br>
+        <label for="comentario">Comentario</label> <br>
+        <textarea  cols="50" rows="10" id="comentario" placeholder="Ingrese comentario" name="comentario"></textarea>
+        <br>
+        <input type="submit"/>
+    </form>
+    <!-- Esto es la creacion de un formulario, en este caso el ingresar el nombre-->
+
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!-- Lista no ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-alpha">Sub elemento 1</li>
+                <li style="list-style-type:lower-alpha">Sub elemento 2</li>
+                
+            </ol>
+        </li>
+    </ol>
+    <!--lista ordenada-->
+<br>
+<h1> Tipo de botones</h1>
+<button type="button">Tipo boton</button>
+<button type="submit">Tipo submit</button> 
+<button type="reset">Tipo reset</button>
+<!-- Tipo de botones -->
+
+<table style="width: 500px;">
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Frijoles</td>
+            <td>$50 pesos</td>
+        </tr>
+        <tr>
+            <td>Manzanas verdes</td>
+            <td>$50.00 mexicanos</td>
+        </tr>
+        <tr>
+            <td>Enchiladas verdes con frijoles y ensalada</td>
+            <td>$5000. 0000 pesos mexicanos</td>
+        </tr>
+</table>
+<br> 
+</body>
+</html>
